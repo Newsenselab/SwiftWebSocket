@@ -8,6 +8,10 @@ Conforming WebSocket ([RFC 6455](https://tools.ietf.org/html/rfc6455)) client li
 
 SwiftWebSocket passes all 521 of the Autobahn's fuzzing tests, including strict UTF-8, and message compression.
 
+### `Fork Details`
+
+This is a fork of the original project (which seems to be in a unmaintained state) to allow its usage with Swift 5 and SPM
+
 ### `Project Status`
 
 I'm looking for someone to help with or take over maintenance of this project.
