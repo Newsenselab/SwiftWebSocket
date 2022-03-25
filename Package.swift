@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
 	name: "SwiftWebSocket",
 	platforms: [
-		.iOS(.v13),         //.v8 - .v13
-		.macOS(.v10_15),    //.v10_10 - .v10_15
-		.tvOS(.v13),        //.v9 - .v13
+		.iOS(.v12),         //.v8 - .v13
+		.macOS(.v10_14),    //.v10_10 - .v10_15
+		.tvOS(.v12),        //.v9 - .v13
 	],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
