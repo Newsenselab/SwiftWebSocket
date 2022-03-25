@@ -18,15 +18,13 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
-//	publicHeadersPath: "./Sources/myPackage/headers", // not working
+//	publicHeadersPath: "./Sources/myPackage/headers", // not working somehow
     targets: [
         .target(
             name: "SwiftWebSocket",
             dependencies: [],
 			linkerSettings: [
-//				.linkedFramework("libz"),
-//				.linkedFramework("libz.dylib"),
-				.linkedLibrary("libz"),]),
+				.linkedLibrary("z"),]), // libz.dylib
 		
         .testTarget(
             name: "SwiftWebSocketTests",
